@@ -22,7 +22,7 @@ console.log(luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
-let introduction = `my name is $('fullName'), and i think $('luckyNumber) is a winner`
+let introduction = "my name is Abdulahi Kabare and i think 11 is a winner"
 console.log(introduction);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
