@@ -58,9 +58,9 @@ const allowedPets = 5;
 
 let result = '';
 if (adventurous === true) {
-  console.log("Adventures are great!")
+  result = "Adventures are great!"
 } else if (adventurous === false) {
-  console.log("How about we stay home?")
+  result = "How about we stay home?"
 }
 console.log(result)
 
@@ -89,13 +89,15 @@ console.log(diceRoll);
 let petStatus = '';
 
 if (pets < allowedPets) {
-  console.log("I can have more pets")
+  petStatus = "I can have more pets"
 } else if (pets === allowedPets) {
-  console.log("I have enough pets")
+  petStatus = "I have enough pets"
 } else if (pets > allowedPets) {
-  console.log("Oh no, I have too many pets!")
+  petStatus = "Oh no, I have too many pets!"
 }
 
+
+console.log(petStatus)
 
 // STRETCH GOALS:
 
